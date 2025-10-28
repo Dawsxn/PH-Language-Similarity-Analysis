@@ -1,6 +1,6 @@
 # PH Language Similarity Analysis
 
-This project analyzes the lexical similarity of 13 Philippine languages along with English, Spanish, and Yami using computational linguistic techniques. The goal is to quantify how similar these languages are to each other based on their core vocabulary and structure.
+This project analyzes the textual similarity of 13 Philippine languages (along with English, Spanish, and Yami) using computational linguistic techniques. The goal is to quantify how similar these languages are by comparing their character-level n-gram profiles. This method captures orthographic and distributional patterns in the text.
 
 The analysis is based on a **1.2-million-word multilingual corpus** collected from online bible texts. The similarity between languages is calculated using **3-gram** character features, weighted by **TF-IDF**, and then compared using **Cosine Similarity**.
 
